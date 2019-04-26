@@ -36,7 +36,7 @@ client.on("guildMemberAdd", member => {
 
     if(!bvn) return;
 
-    var role = member.guild.roles.find(r => r.id === "571345081873989667");
+    var role = member.guild.roles.find(r => r.name === "ŋơų۷ɛąų ƈơơƙıɛƙąῳąıı🌈");
     member.addRole(role).catch(console.error);
 
 });
