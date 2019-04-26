@@ -32,11 +32,7 @@ client.on("ready", () => {
 
 client.on("guildMemberAdd", member => {
 
-    const bvn = member.guild.channels.find(m => m.name === "welcome");
-
-    if(!bvn) return;
-
-    var role = member.guild.roles.find(r => r.name === "ŋơų۷ɛąų ƈơơƙıɛƙąῳąıı🌈");
+    var role = member.guild.roles.find(r => r.id === "571345081873989667");
     member.addRole(role).catch(console.error);
 
 });
